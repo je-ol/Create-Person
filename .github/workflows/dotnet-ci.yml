@@ -15,7 +15,7 @@ jobs:                         # the main tasks that run in the pipeline
     steps:                   # the specific steps to be executed in a sequence   
     - uses: actions/checkout@v4  # pulls the latest version of the code from the repository
     - name: Setup dotnet
-      uses: actions/setup-dotnet@v3  # installs dotnet in the virtual machine
+      uses: actions/setup-dotnet@v4  # installs dotnet in the virtual machine
       with:
         dotnet-version: '8.x'
 

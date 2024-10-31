@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Newake";
+  src: local("Newake"),
+    url("./assets/fonts/Newake-Font-Demo.otf") format("opentype");
+  font-weight: bold;
+}
+
+:root {
+  --radius: 0.5rem;
+  --primary-dark: #151515;
+  --primary-light: #1f1f21;
+  --primary-muted: #4E607E;
+  --primary-input: #28282a;
+  --input-active: #9747FF;
+  --primary-subtle: #848484;
+  --off-white: #e0e0e0;
+  --off-white-dark: #bdbdbd;
+  --button-default: #015ff9;
+  --button-hover: #0840ce;
+  --button-active: #002293;
+  --button-border: #151515;
+  --error-bright: #FF0000;
+  --error: #450101;
+  --error-15: #300101;
+  --error-30: #180000;
+  --success: #02412D;
+  --success-15: #001811;
+  --success-30: #000C08;
+  --success-bright: #3FDB67; 
+  --secondary-accent: #015FF9;
+  --terciary-accent: #A00BD1;
+  --middle-accent: #4e36e689;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  background-color: #151517;
+  color: #e0e0e0;
+  overflow: hidden;
+}

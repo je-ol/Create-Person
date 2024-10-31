@@ -1,0 +1,6 @@
+@Create_Person.API_HostAddress = http://localhost:5191
+
+GET {{Create_Person.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

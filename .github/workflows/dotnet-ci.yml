@@ -1,4 +1,4 @@
-name: .Server CI Pipeline
+name: .Create-Person CI Pipeline
 
 on:                           # the events that trigger the pipeline to run
   push:

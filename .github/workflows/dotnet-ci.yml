@@ -19,11 +19,11 @@ jobs:                         # the main tasks that run in the pipeline
       with:
         dotnet-version: '8.x'
 
-    - name: Clean dotnet
-      run: dotnet clean Server/Create-Person-API.sln
-
     - name: Restore dotnet dependencies
       run: dotnet restore Server/Create-Person-API.sln
+
+    - name: Clean dotnet
+      run: dotnet clean Server/Create-Person-API.sln
 
     - name: Build dotnet
       run: dotnet build Server/Create-Person-API.sln --configuration Release --no-restore

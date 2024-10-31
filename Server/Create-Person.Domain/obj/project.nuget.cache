@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dAGs+8ixb9qlzH9HbYAzVx4651MJx4udA1xDcPtCOo6nAxQhKaXxs89LSsB14wMhD/zRAoymMYzLBbcYBifysA==",
+  "success": true,
+  "projectFilePath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/Create-Person.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/jessica_olivares/.nuget/packages/csharpfunctionalextensions/3.0.0/csharpfunctionalextensions.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

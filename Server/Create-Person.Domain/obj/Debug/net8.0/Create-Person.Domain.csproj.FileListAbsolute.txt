@@ -1,0 +1,13 @@
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/bin/Debug/net8.0/Create-Person.Domain.deps.json
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/bin/Debug/net8.0/Create-Person.Domain.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/bin/Debug/net8.0/Create-Person.Domain.pdb
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.csproj.AssemblyReference.cache
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.AssemblyInfoInputs.cache
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.AssemblyInfo.cs
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.csproj.CoreCompileInputs.cache
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.sourcelink.json
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/refint/Create-Person.Domain.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/Create-Person.Domain.pdb
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/Debug/net8.0/ref/Create-Person.Domain.dll

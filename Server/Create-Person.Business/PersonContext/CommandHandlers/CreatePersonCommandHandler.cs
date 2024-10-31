@@ -29,7 +29,7 @@ public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand, R
                     .TapError(() => _logger.LogError("Something went wrong saving this person to the cache"))
                 .Map(personId => new CreatePersonResponseDto
                 {
-                    Id = personId
+                    Id = personId 
                 });
         }
     }

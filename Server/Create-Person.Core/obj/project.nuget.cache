@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4WopY3o4Yi6PVq4bMWo+ZcyDNM6oGy7iaGA6FCkuuK1e40WlzKsEyGcW2sHTnNivZ5NQHVCqNeeLONbbWvHWLg==",
+  "dgSpecHash": "CW/Q2/vQLoU7Sen1JhAb+i+3A1cOvY3exCCLH2/YjxLuknzPPLnamCrJ1nEfAq1O/EFgL8uSTgkrxPv6AkzILg==",
   "success": true,
-  "projectFilePath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Core/Create-Person.Core.csproj",
+  "projectFilePath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Core/Create-Person.Core.csproj",
   "expectedPackageFiles": [
     "/home/jessica_olivares/.nuget/packages/csharpfunctionalextensions/3.0.0/csharpfunctionalextensions.3.0.0.nupkg.sha512",
     "/home/jessica_olivares/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",

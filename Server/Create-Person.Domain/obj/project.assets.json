@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/Create-Person.Domain.csproj",
+      "projectUniqueName": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/Create-Person.Domain.csproj",
       "projectName": "Create-Person.Domain",
-      "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/Create-Person.Domain.csproj",
+      "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/Create-Person.Domain.csproj",
       "packagesPath": "/home/jessica_olivares/.nuget/packages/",
-      "outputPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/obj/",
+      "outputPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jessica_olivares/.nuget/NuGet/NuGet.Config"

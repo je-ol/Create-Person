@@ -20,13 +20,13 @@ jobs:                         # the main tasks that run in the pipeline
         dotnet-version: '8.x'
 
     - name: Clean dotnet
-      run: dotnet clean Create-Person-API.sln
+      run: dotnet clean Server/Create-Person-API.sln
 
     - name: Restore dotnet dependencies
-      run: dotnet restore Create-Person-API.sln
+      run: dotnet restore Server/Create-Person-API.sln
 
     - name: Build dotnet
-      run: dotnet build Create-Person-API.sln --configuration Release --no-restore
+      run: dotnet build Server/Create-Person-API.sln --configuration Release --no-restore
 
     - name: Test dotnet
-      run: dotnet test Create-Person.Tests/Create-Person.Tests.csproj --verbosity normal
+      run: dotnet test Server/Create-Person.Tests/Create-Person.Tests.csproj --verbosity normal

@@ -2226,6 +2226,7 @@
       "MediatR >= 12.4.1",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Microsoft.Extensions.Logging >= 8.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 8.0.0",
       "Microsoft.Extensions.Logging.Console >= 8.0.0",
       "Serilog >= 4.0.2",
       "Serilog.AspNetCore >= 8.0.3",
@@ -2239,11 +2240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.API/Create-Person.API.csproj",
+      "projectUniqueName": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/Create-Person.API.csproj",
       "projectName": "Create-Person.API",
-      "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.API/Create-Person.API.csproj",
+      "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/Create-Person.API.csproj",
       "packagesPath": "/home/jessica_olivares/.nuget/packages/",
-      "outputPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.API/obj/",
+      "outputPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jessica_olivares/.nuget/NuGet/NuGet.Config"
@@ -2258,17 +2259,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Business/Create-Person.Business.csproj": {
-              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Business/Create-Person.Business.csproj"
+            "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Business/Create-Person.Business.csproj": {
+              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Business/Create-Person.Business.csproj"
             },
-            "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Core/Create-Person.Core.csproj": {
-              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Core/Create-Person.Core.csproj"
+            "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Core/Create-Person.Core.csproj": {
+              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Core/Create-Person.Core.csproj"
             },
-            "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/Create-Person.Domain.csproj": {
-              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Domain/Create-Person.Domain.csproj"
+            "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/Create-Person.Domain.csproj": {
+              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Domain/Create-Person.Domain.csproj"
             },
-            "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Persistence/Create-Person.Persistence.csproj": {
-              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Service/Create-Person.Persistence/Create-Person.Persistence.csproj"
+            "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Persistence/Create-Person.Persistence.csproj": {
+              "projectPath": "/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.Persistence/Create-Person.Persistence.csproj"
             }
           }
         }
@@ -2300,6 +2301,10 @@
             "version": "[8.0.8, )"
           },
           "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[8.0.0, )"
           },

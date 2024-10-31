@@ -1,0 +1,32 @@
+name: .Create-Person CI Pipeline
+
+on:                           # the events that trigger the pipeline to run
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:                         # the main tasks that run in the pipeline
+  build:                        
+    runs-on: ubuntu-latest      # temporary, cloud-based server 
+
+    steps:                   # the specific steps to be executed in a sequence   
+    - uses: actions/checkout@v4  # pulls the latest version of the code from the repository
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v3  # installs dotnet in the virtual machine
+      with:
+        dotnet-version: '8.x'
+
+    - name: Clean dotnet
+      run: dotnet clean Create-Person-API.sln
+
+    - name: Restore dotnet dependencies
+      run: dotnet restore Create-Person-API.sln
+
+    - name: Build dotnet
+      run: dotnet build Create-Person-API.sln --configuration Release --no-restore
+
+    - name: Test dotnet
+      run: dotnet test Create-Person.Tests/Create-Person.Tests.csproj --verbosity normal

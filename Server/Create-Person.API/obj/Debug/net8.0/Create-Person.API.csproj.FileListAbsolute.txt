@@ -54,3 +54,7 @@
 /home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/obj/Debug/net8.0/Create-Person.API.pdb
 /home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/obj/Debug/net8.0/Create-Person.API.genruntimeconfig.cache
 /home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/obj/Debug/net8.0/ref/Create-Person.API.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/jessica_olivares/dev-projects/fullstack/Server/Create-Person.API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll

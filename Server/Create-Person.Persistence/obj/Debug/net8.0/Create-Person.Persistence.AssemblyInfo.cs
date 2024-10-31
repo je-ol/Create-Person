@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Create-Person.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c66ccaf34d0daaa7724322a1a0a961fd745829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a4e136563752a3d124b1022aa8ceea8f810a625")]
 [assembly: System.Reflection.AssemblyProductAttribute("Create-Person.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Create-Person.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

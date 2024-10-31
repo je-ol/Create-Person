@@ -73,7 +73,7 @@
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
@@ -383,7 +383,7 @@
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

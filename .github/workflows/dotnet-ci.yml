@@ -1,6 +1,6 @@
 name: .Create-Person CI Pipeline
 
-on:                           # the events that trigger the pipeline to run
+on:                              # the events that trigger the pipeline to run
   push:
     branches:
       - main
@@ -8,25 +8,25 @@ on:                           # the events that trigger the pipeline to run
     branches:
       - main
 
-jobs:                         # the main tasks that run in the pipeline
+jobs:                           # the main tasks that run in the pipeline
   build:                        
     runs-on: ubuntu-latest      # temporary, cloud-based server 
 
-    steps:                   # the specific steps to be executed in a sequence   
-    - uses: actions/checkout@v4  # pulls the latest version of the code from the repository
+    steps:                           # the specific steps to be executed in a sequence   
+    - uses: actions/checkout@v4      # pulls the latest version of the code from the repository
     - name: Setup dotnet
       uses: actions/setup-dotnet@v4  # installs dotnet in the virtual machine
       with:
         dotnet-version: '8.x'
 
-    - name: Restore dotnet dependencies
+    - name: Restore dotnet dependencies  #  looks for the referenced dependencies and downloads them if necessary. It also ensures that all the dependencies required by the project are compatible with each other and that there are no conflicts between them.
       run: dotnet restore Server/Create-Person-API.sln
 
-    - name: Clean dotnet
+    - name: Clean dotnet                # both intermediate (obj) and final output (bin) folders are cleaned.
       run: dotnet clean Server/Create-Person-API.sln
 
-    - name: Build dotnet
+    - name: Build dotnet              # compiles the project files into an executable
       run: dotnet build Server/Create-Person-API.sln --configuration Release --no-restore
 
-    - name: Test dotnet
+    - name: Test dotnet               # runs the unit tests
       run: dotnet test Server/Create-Person.Tests/Create-Person.Tests.csproj --verbosity normal
